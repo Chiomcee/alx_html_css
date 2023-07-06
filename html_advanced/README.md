@@ -26,6 +26,7 @@ By the end of this project, you should be able to explain the following concepts
 ### 0. README and objectives!
 
 For this project, you will implement a webpage from a designer file. The focus is on the HTML structure only, with no CSS or styling.
+<img width="302" alt="559ad8d43fb61e310e2b" src="https://github.com/Chiomcee/alx_html_css/assets/122943379/eea24368-ed1e-4684-aa10-f9781db76455">
 
 Designer file available on Figma: [Page in Figma](https://www.figma.com/file/FIGMA_FILE)
 
