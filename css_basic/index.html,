@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>The most basic, simple and valid HTML </title>
+        <meta charset="UTF-8">
+        <link href="base.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- -->
+        <h1> Learning HTML is fun </h1>
+        <header>
+            <!-- ol and ul -->
+            <ul>
+                <li>  <a href="#">Home</a>  </li>
+                <li>  <a href="base_index.html">base</a>  </li>
+                <li>  <a href="tweets.html">tweet</a>  </li> 
+            </ul>           
+        </header>
+        <p>
+            <a id="Home"> This is the home page. </a>
+        </p>
+        <br>
+        <br>
+        <main>
+            <article>
+                <h2> Learning HTML is fun </h2>
+                    <a href="https://pixabay.com/photos/christmas-background-flat-lay-191163"> Christmas decoration background </a>
+
+            </article>
+            <aside>
+                <p>
+                    placeholder to add comment thread later
+                </p>
+            </aside>
+            <article>
+                <h3> Population table </h3>
+                    <table>
+
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Country</th>
+                        </tr>
+
+                        <tr>
+                            <td>John</td>
+                            <td>25</td>
+                            <td>USA</td>
+                        </tr>
+
+                        <tr>
+                            <td>Emily</td>
+                            <td>28</td>
+                            <td>Canada</td>
+                        </tr>
+
+                        <tr>
+                            <td>Michael</td>
+                            <td>32</td>
+                            <td>Australia</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sophia</td>
+                            <td>21</td>
+                            <td>UK</td>
+                        </tr>
+
+                    </table>
+                </article>
+        </main>
+        <footer>
+            <p>
+                This webpage is made by Chioma <a href="tweets.html" target="_blank">here</a>
+            </p>
+        </footer>
+    </body>
+</html>
