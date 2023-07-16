@@ -65,3 +65,40 @@ body {
   overflow-x: hidden;
   font-size: 14px;
 }
+
+/* HEADER SECTION */
+.hero {
+	background-image: url('assets/background.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: var(--light-text);
+	text-align: center;
+}
+
+.hero a {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.2em;
+	text-decoration: none;
+	margin: 0 15px;
+	text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+
+.hero div.get-schooled {
+	margin-top: 20%;
+}
+
+.hero h1 {
+	font-size: 5em;
+	font-weight: bolder;
+	margin: 30px;
+}
+
+.hero 
