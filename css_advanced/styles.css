@@ -101,4 +101,37 @@ nav {
 	margin: 30px;
 }
 
-.hero 
+.hero p.three-words {
+	word-spacing: 30px;
+	font-weight: bold;
+	margin: 15px;
+}
+
+button:hover {
+	box-shadow: none;
+}
+.get-schooled button {
+	margin: 5%;
+}
+
+.purple {
+	color: var(--primary);
+	font-weight: bolder;
+}
+
+h2.pro-head {
+	font-size: 1.3em;
+	margin-top: 15%;
+}
+
+div.pros-avatar {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 5%;
+	margin: 0 5%;
+}
+
+main h3 {
+	font-weight: 800;
+}
+
