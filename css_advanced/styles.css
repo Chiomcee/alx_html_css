@@ -3,11 +3,10 @@
 :root {
   --primary: #C271FF;
   --seconadry: #071629;
-  --light-text: #FFFFFF;
+  --light-text: #fff;
   --dark-text: rgba(7, 22, 41, 0.5);
 }
-/* http://meyerweb.com/eric/tools/css/reset/ 
-*/
+/*  CSS RESET */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -258,5 +257,67 @@ main h3 {
 
   .stars p {
     color: var(--primary);
+  }
+
+  /* membership section */
+  
+  #membership {
+    background-color: var(--secondary);
+    color: var(--light-text);
+    padding: 7%;
+    text-align: center;
+  }
+
+  #membership > h2 {
+    
+    font-size: 1.5em;
+    margin-bottom: 5%;
+  }
+
+  #membership > h2 span {
+    color: var(--primary);
+    font-weight: bolder;
+  }
+
+  .membership-items {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 7%;
+  }
+
+  #membership h3 {
+    font-weight: bold;
+    margin: 7% 0;
+  }
+
+   /* FAQ section */
+  
+   #faq {
+    padding: 7%;
+    color: var(--dark-text);
+  }
+
+  #faq > h2 {
+    font-size: 2.5em;
+    color: black;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  #faq .row-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5%;
+  }
+
+  .row .item-block {
+    padding: 5%;
+  }
+
+  .row-block .item-block h2 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5%;
   }
 
