@@ -78,21 +78,34 @@ body {
 .hero a {
 	color: #FFFFFF;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 16px;
 	text-decoration: none;
 	margin: 0 15px;
 	text-transform: uppercase;
 }
 
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 10px 30px;
+}
+
 nav {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 3%;
+    margin-left: 20px;
+    padding-top: 1.5%;
+}
+
+.logo {
+  margin-right: 20px;
+  padding-top: 4%;
 }
 
 .hero div.get-schooled {
 	margin-top: 20%;
 }
+
 
 .hero h1 {
 	font-size: 5em;
@@ -106,6 +119,19 @@ nav {
 	margin: 15px;
 }
 
+.button {
+  background-color: #C271FF;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px .5px;
+  border-radius: 25px;
+
+}
 button:hover {
 	box-shadow: none;
 }
@@ -262,7 +288,7 @@ main h3 {
   /* membership section */
   
   #membership {
-    background-color: var(--secondary);
+    background-color: #071629;
     color: var(--light-text);
     padding: 7%;
     text-align: center;
