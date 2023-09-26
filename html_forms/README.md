@@ -1,3 +1,3 @@
 # HTML Forms
 
-## Solution to All Tasks 
+## Solutions to all the tasks in HTML Forms project of the ALX Intro to Software Engineering program 
