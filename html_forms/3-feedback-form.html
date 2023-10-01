@@ -7,7 +7,7 @@
   </head>
   <body>
     <h1>Feedback Form</h1>
-    <form action="">
+    <form id="feedbackForm" action="#" method="post" enctype="multipart/form-data">
         <ul>
           <li>
             <label for="name">Name:</label>
@@ -37,5 +37,20 @@
           </li>
         </ul>
       </form>
+      <!--script>
+        //HTML5 validation using Javascript
+        const feedbackForm = document.getElementById('feedbackForm');
+        feedbackForm.addEventListener('submit', function (event) {
+            const nameInput = document.getElementById('name');
+            const emailInput = document.getElementById('email');
+            const feedbackCheckboxes = document.querySelectorAll('input[name="feedback[]"]:checked');
+            const fileInput = document.getElementById('file');
+
+            if (!nameInput.checkValidity() || !emailInput.checkValidity() || feedbackCheckboxes.length === 0 || !fileInput.checkValidity()) {
+                event.preventDefault();
+                alert('Please fill out all required fields and select at least one feedback option.');
+            }
+        });
+      </script> -->
   </body>
 </html>
